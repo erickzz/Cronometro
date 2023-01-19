@@ -19,7 +19,7 @@ let interval;
 
 const timer = () => {
   interval = setInterval(() => {
-    miliseconds += 1000;
+    miliseconds += 10;
     if (miliseconds == 1000) {
       miliseconds = 0;
       seconds++;
